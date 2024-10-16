@@ -23,3 +23,9 @@ cap.release()
 cv2.destroyAllWindows()
 
 
+pip install labelme
+pip show labelme
+pip install pyqt5
+
+import labelme
+labelme.main()
